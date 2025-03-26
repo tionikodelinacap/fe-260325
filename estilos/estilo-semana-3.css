@@ -1,0 +1,73 @@
+
+.first-section {
+    /*width: 200px;
+    height: 100px;*/
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+#middle-section {
+    /*width: 200px;
+    height: 100px;*/
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+section{
+    border:2px dotted black;
+    display: inline-block;
+}
+section[tercer-section="true"]{
+    height: 300px;
+}
+footer{
+    background-color: black;
+    padding: 4em 1em 4em 0;
+    text-align: right;
+    margin-top: 2em;
+    position: fixed ;
+    bottom:0;
+    left:0;
+    width: 100%;
+    color: aliceblue;
+}
+section.upper{
+    text-transform:uppercase ;
+
+}
+---------------------------------------------------------------
+
+.static{
+position: static;
+background-color: aliceblue;
+}
+.relative{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    background-color: antiquewhite;
+}
+.absolute{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: aqua;
+
+}
+.fixes{
+    position: fixed;
+    bottom: 0%;
+    right: 0;
+    background-color: aquamarine;
+
+}
+/*selectores son para identificar los elementos a modificar 
+nombreelelemento
+class
+.first-section
+id
+atributo
